@@ -1,0 +1,28 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1c1c1c;
+    /* position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 1000;  */
+  }
+  
+  .logo img {
+    margin: 20px;
+    height: 60px; 
+
+  }
+  .nav-links a {
+    color: rgba(255, 255, 255, 0.711); 
+    margin: 0 35px;
+    text-decoration: none;
+    font-size: 18px;
+
+  }
+  
+  .nav-links a:hover {
+    color: white; 
+  } 

@@ -1,0 +1,16 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    transform: translateX(-50%);
+    color: white;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .scroll-to-top.show {
+    display: block;
+  }
+  

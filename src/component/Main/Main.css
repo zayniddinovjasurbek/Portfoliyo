@@ -1,0 +1,69 @@
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1c1c1c;
+    height: 645px;
+
+}
+
+.main-info {
+    margin-top: 170px;
+    line-height: 50px;  
+}
+
+.main-info p {
+    color: #9a9999;
+    font-size: 24px;
+}
+
+.main-info h2 {
+    color: rgba(255, 255, 255, 0.711);
+    font-size: 48px;
+}
+
+.main-img {
+    border: 20px solid #22af10f7;
+    -webkit-box-shadow: 1px 1px 75px 6px rgba(94,220,77,1);
+    -moz-box-shadow: 1px 1px 75px 6px rgba(94,220,77,1);
+    box-shadow: 1px 1px 75px 6px rgba(94,220,77,1);
+    
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+}
+
+.main-button .Download {
+    height: 38px;
+    width: 128px;
+    font-size: 24;
+    margin: 0 10px 0 0;
+    background-color: #22af10f7;
+    border: none;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.main-button .Learn {
+    height: 38px;
+    width: 128px;
+    font-size: 24;
+    margin: 0 10px 0 0;
+    background: rgba(255, 255, 255, 0.711);
+    border: rgba(255, 255, 255, 0.711);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.main-button .Download:hover{
+    transform: scale(1.1) translateY(-5px); /* Kattalashtirish va biroz yuqoriga siljitish */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Kichik soyani qo'shish */
+}
+
+.main-button .Learn:hover{
+    transform: scale(1.1) translateY(-5px); /* Kattalashtirish va biroz yuqoriga siljitish */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Kichik soyani qo'shish */
+}
+
+
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.services-container {
+    margin-bottom: 20px;
+}
+.services-container h2{
+    text-align: center;
+    padding: 78px 0px;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.711);
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  
+}
+
+.card {
+  background-color: #333;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.card .icon {
+  margin-bottom: 10px;
+  margin-left: 0;  
+  font-size: 40px;
+  color: #0c9f0ce3;
+  background-color: #333;
+
+}
+.icon {
+  background-color: #333;
+}
+
+.card h3 {
+  color: #888;
+  font-weight: 400;
+  background-color: #333;
+}
+
+.card:hover,
+.card.selected {
+  border-bottom: 3px solid #00ff00;
+}
+
+.card.selected h3 {
+  color: #00ff00;
+}
